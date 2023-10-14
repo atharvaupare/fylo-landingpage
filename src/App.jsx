@@ -1,15 +1,15 @@
+import Hero from "./components/Hero";
+import Servies from "./components/Services";
 
 function App() {
-
-
   return (
     <>
-      <div className='text-3xl text-blue-600'>
-        Hello World
+      <div className="font-raleway">
+        <Hero />
+        <Servies />
       </div>
-      <div>hi</div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
