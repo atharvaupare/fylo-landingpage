@@ -19,15 +19,15 @@ const Hero = () => {
         </div>
 
         <div className="flex items-center flex-col text-white text-center gap-4">
-          <div className="mx-auto text-2xl font-extrabold leading-12 w-[75%] pb-2 z-10">
+          <div className="mx-auto text-2xl font-extrabold leading-12 w-[75%] pb-2 z-10 md:text-3xl md:w-[45%]">
             All your files in one secure location, accessible anywhere.
           </div>
-          <div className="text-sm leading-5 w-[90%] z-10">
+          <div className="text-sm leading-5 w-[90%] z-10 md:w-[50%]">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends
             family, and co-workers.
           </div>
-          <Button className="py-2.5 w-[65%]">Get Started</Button>
+          <Button className="py-2.5 w-[65%] md:w-[15%]">Get Started</Button>
         </div>
       </div>
     </div>

@@ -22,9 +22,31 @@ body {
   background-color: #181e2a;
 }
 
+@media screen and (min-width: 768px) {
+  .testimonials {
+    background-position: left 100px top 10px;
+  }
+}
+
 .form {
   position: relative;
   bottom: -110px;
 }
 
+.info {
+  background: url(assets/images/icon-location.svg) no-repeat;
+  background-position: left center 10px;
+  padding-left: 25px
+}
 
+.email {
+  background: url(assets/images/icon-email.svg) no-repeat;
+  background-position: left center 10px;
+  padding-left: 25px
+}
+
+.contact {
+  background: url(assets/images/icon-phone.svg) no-repeat;
+  background-position: left center 10px;
+  padding-left: 25px
+}
