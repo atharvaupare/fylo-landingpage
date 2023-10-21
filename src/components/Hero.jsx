@@ -17,8 +17,8 @@ const Hero = () => {
         <div>
           <img src={mainphoto} className="mb-5" alt="Main Photo" />
         </div>
-        <div className="flex items-center flex-col text-white text-center gap-4 ">
-          <div className="mx-auto text-2xl font-extrabold leading-12 w-[75%] pb-2">
+        <div className="flex items-center flex-col text-white text-center gap-4">
+          <div className="mx-auto text-2xl font-extrabold leading-12 w-[75%] pb-2 z-10">
             All your files in one secure location, accessible anywhere.
           </div>
           <div className="text-sm leading-5 w-[90%]">

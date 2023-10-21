@@ -35,7 +35,7 @@ const Services = () => {
 
   return (
     <div className="bg-secondary px-6 text-white py-20">
-      <div className="flex flex-col items-center justify-center gap-20">
+      <div className="grid grid-cols-1 items-center justify-center gap-20 md:grid-cols-2 md:px-56">
         {features.map((feature, index) => (
           <Feature
             key={index}
