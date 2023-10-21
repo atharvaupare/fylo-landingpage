@@ -4,10 +4,10 @@ import arrowsvg from "../assets/images/icon-arrow.svg";
 
 const StayProductive = () => {
   return (
-    <div className="bg-secondary px-6 py-4 md:px-36">
+    <div className="bg-secondary px-6 pt-4 pb-16 md:px-36">
       <div className="flex flex-col gap-4 items-center justify-content text-white md:flex-row md:gap-8 ">
         <div>
-          <img src={stayProd} className="p-2"></img>
+          <img src={stayProd} className="p-2 md:max-h-[100%] "></img>
         </div>
         <div className="prod-card flex flex-col gap-2 md:gap-4">
           <h2 className="font-semibold text-xl md:text-3xl md:font-extrabold md:w-[50%] ">
