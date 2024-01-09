@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const GetEarlyAccess = () => {
   return (
-    <div className="bg-secondary px-8 py-8 w-auto md:px-96 ">
+    <div className="bg-secondary px-8 py-8 w-auto md:px-auto ">
       <div className="form bg-primary px-2 py-6 text-center   max-w-8 rounded-lg flex flex-col gap-4 shadow-lg md:w-auto">
         <div className="text-3xl font-bold px-2 md:">
           Get early access today
