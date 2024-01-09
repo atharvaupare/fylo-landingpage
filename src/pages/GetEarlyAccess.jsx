@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../components/Button";
 
 const GetEarlyAccess = () => {
   return (
@@ -13,7 +13,7 @@ const GetEarlyAccess = () => {
           extremely generous. If you have any question, our support team would
           be happy to help you.
         </p>
-        <div className="flex flex-col gap-2 md:flex-row md:justify-evenly items-center md:w-auto">
+        <div className="flex flex-col gap-2 md:flex-row md:justify-center md:gap-8 items-center md:w-auto">
           <input
             type="email"
             name="mail@example.com"

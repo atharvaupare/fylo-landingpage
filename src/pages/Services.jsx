@@ -1,5 +1,5 @@
 import React from "react";
-import Feature from "./Feature";
+import Feature from "../components/Feature";
 import accessyourfiles from "../assets/images/icon-access-anywhere.svg";
 import anyfilestorage from "../assets/images/icon-any-file.svg";
 import collaborate from "../assets/images/icon-collaboration.svg";

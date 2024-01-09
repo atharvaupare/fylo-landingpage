@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import StayProductive from "./components/StayProductive";
-import Testimonials from "./components/Testimonials";
-import GetEarlyAccess from "./components/GetEarlyAccess";
+import Hero from "./pages/Hero";
+import Services from "./pages/Services";
+import StayProductive from "./pages/StayProductive";
+import Testimonials from "./pages/Testimonials";
+import GetEarlyAccess from "./pages/GetEarlyAccess";
+import InappropriateSize from "./pages/InappropriateSize";
 import Footer from "./components/Footer";
-import InappropriateSize from "./components/InappropriateSize";
 
 function App() {
   const [windowSize, setWindowSize] = useState(window.innerWidth);

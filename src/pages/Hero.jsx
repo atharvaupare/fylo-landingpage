@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import mainphoto from "../assets/images/illustration-intro.png";
-import Button from "./Button";
+import Button from "../components/Button";
 import curvymobile from "../assets/images/bg-curvy-mobile.svg";
 
 const Hero = () => {
